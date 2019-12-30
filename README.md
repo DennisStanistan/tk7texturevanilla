@@ -6,8 +6,8 @@
 Drag a uasset file to tk7texturevanilla.exe and the tool will output the extracted texture
 
 ### Via command prompt
-tk7texturevanilla <uasset-file> - Will extract a texture from the uasset file and output a DDS file where the exe is located
-tk7texturevanilla <uasset-file> -o <path> - Will extract a texture from the uasset file and output it to <path>
+tk7texturevanilla (uasset-file) - Will extract a texture from the uasset file and output a DDS file where the exe is located
+tk7texturevanilla (uasset-file) -o (path) - Will extract a texture from the uasset file and output it to <path>
  
 Example:
 tk7texturevanilla **"C:\Program Files\Games\TekkenGame\Content\UI\flash\SW_UI_Makuai\Rep_RNK_PROMOTION_M_L.uasset"** -o **"C:\texturefolder"**
